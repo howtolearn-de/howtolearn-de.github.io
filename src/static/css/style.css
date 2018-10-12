@@ -20,6 +20,11 @@
 	font-size: inherit;
 }
 
+.alfred {
+	width: 3vw;
+	margin: 0.5vh;
+}
+
 pre {
 	box-sizing: border-box;
 	padding: 20px;
