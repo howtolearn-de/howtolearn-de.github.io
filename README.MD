@@ -1,8 +1,6 @@
 Jekyll-Pug-Material
 ---
 
-![Screenshot of template](src/static/img/screenshot.png)
-
 # A Material Design Pug Experience Using [Jekyll-Pug](https://jekyll-pug.dougie.io/)
 
 ## To Run:
@@ -14,3 +12,7 @@ Jekyll-Pug-Material
 ## Package.json?
 
 The package.json is for deploying to Netlify. It tells Netlify to install the Pug-CLI NPM package which is needed in order to run Jekyll-Pug.
+
+## Deploy
+
+Run `bundle exec jekyll build --source src --destination dist && cp -r dist/* .` and then add all and push to github.
