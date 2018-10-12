@@ -27,6 +27,8 @@ layout: base
 				.card-content
 					span.card-title {{post.title}}
 					p {{post.excerpt}}
+					hr
+					p.right by {{post.expert}}
 				.card-action
 					a(href='{{post.url}}') Read More
 		| {% endfor %}
