@@ -1,7 +1,7 @@
 ---
 title: Domain-Driven Design
 date: 2018-10-12 00:00:00 Z
-author: Johannes Seitz
+expert: Johannes Seitz
 layout: post
 ---
 
