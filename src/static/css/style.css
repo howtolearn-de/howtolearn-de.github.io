@@ -20,9 +20,17 @@
 	font-size: inherit;
 }
 
+.alfred-container {
+display: flex;
+justify-content: center;
+
+
+}
+
 .alfred {
-	width: 3vw;
-	margin: 0.5vh;
+ max-height: 30vh;
+
+
 }
 
 pre {

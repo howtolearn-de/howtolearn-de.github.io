@@ -1,13 +1,15 @@
 ---
-title: Test Page
+title: How to learn
 layout: base
 ---
 
 #index-banner.section.no-pad-bot
 	.container
+		.alfred-container
+				img(src='/static/img/alfred_affiliate.png', class='alfred')
 		br
 		br
-		h1.header.center.orange-text Learn fast from the experts!
+		h1.header.center.innoq-text Learn fast from the experts!
 			h5.header.col.s12.light Starting to learn something new is difficult. There may be tons of books, videos, blog-posts or tutorials, but reading all these sources takes a lot of time. Get a headstart by reading a curated list, provided by top experts.
 
 
@@ -30,5 +32,5 @@ layout: base
 					hr
 					p.right by {{post.expert}}
 				.card-action
-					a(href='{{post.url}}') Read More
+					a.innoq-text(href='{{post.url}}') Read More
 		| {% endfor %}
