@@ -4,6 +4,8 @@ rvm:
 branches:
   only:
   - develop
+install:
+- npm install --global pug
 script:
 - bundle exec jekyll build
 deploy:
