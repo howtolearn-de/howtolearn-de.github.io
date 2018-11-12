@@ -1,6 +1,6 @@
 # Contribute @ howtolearn
 
-At howtolearn, we are open for everyone who wants to share his knowledge with the community.
+At howtolearn, we are open for everyone who wants to share their knowledge with the community.
 For a successful contribution, there are only some little steps to follow.
 
 ## 1) Write your personal TOP 5 of learning resources for one topic
