@@ -1,8 +1,5 @@
 # Contribute @ howtolearn
 
-At howtolearn, we are open for everyone who wants to share their knowledge with the community.
-For a successful contribution, there are only some little steps to follow.
-
 ## 1) Write your personal TOP 5 of learning resources for one topic
 For our learning paths we need only 5 resources, so there is not too much input at once for a newbie in a topic. Since it's a path, you maybe want to suggest the source how to start (your Nr. 1), how to proceed (Nr. 2) and so on. Then just tell in your comment that your order is intentional. Otherwise comment somewhere that your order is random. 
 
