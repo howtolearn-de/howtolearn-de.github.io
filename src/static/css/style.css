@@ -50,3 +50,11 @@ footer ul {
 	margin: 0;
 	padding-top: 1.5em;
 }
+
+.alfred-logo{
+	max-height: 4em;
+}
+
+#logo-container {
+	vertical-align: center;
+}
