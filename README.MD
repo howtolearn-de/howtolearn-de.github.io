@@ -9,6 +9,9 @@ Jekyll-Pug-Material
 2. `cd` into the cloned/downloaded repository and run the command `bundle`.
 3. Run the command `jekyll serve`.
 
+### How to install Jekyll on Fedora 29
+See https://gist.github.com/erdlet/722b2d07c901658089b161282c9f5d66
+
 ## Package.json?
 
 The package.json is for deploying to Netlify. It tells Netlify to install the Pug-CLI NPM package which is needed in order to run Jekyll-Pug.
