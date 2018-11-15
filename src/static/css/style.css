@@ -19,17 +19,6 @@
 	font-size: inherit;
 }
 
-.alfred-container {
-display: flex;
-justify-content: center;
-
-
-}
-
-.alfred {
- max-height: 30vh;
-}
-
 pre {
 	box-sizing: border-box;
 	padding: 20px;
@@ -42,13 +31,15 @@ pre {
 	color: white;
 }
 
-footer {
+.footer {
 	height: 6em;
+	background-color:#343A40;
+	display: flex;
+	align-items: center;
 }
 
-footer ul {
-	margin: 0;
-	padding-top: 1.5em;
+.footer a {
+	color: white;
 }
 
 .alfred-logo{
@@ -57,4 +48,64 @@ footer ul {
 
 #logo-container {
 	vertical-align: center;
+}
+
+.placeholder {
+	height: 13em;
+	background-color: #EAEAEA;
+	margin: 0;
+	width: 100%;
+}
+
+.navbar-nav {
+	display: flex;
+	flex-direction: row;
+}
+
+.nav-item {
+	margin-left: 2em;
+}
+
+.heading {
+	text-align:center; 
+	margin-top:1em; 
+	margin-bottom:1em; 
+	color:#212529;
+}
+
+.description {
+	color:#212529; 
+	font-size:1.2em; 
+	line-height:1.7em; 
+	margin-bottom:2em;
+}
+
+.post-card {
+	margin-bottom: 1em; 
+	margin-top: 1em;
+}
+
+.post-card_header {
+	text-align:center; 
+	font-size:1.5em; 
+	color:#70759A;
+}
+
+.post-card_body {
+	height: 18rem;
+}
+
+.post-card_blockquote {
+	font-size:1em;
+}
+
+.post-card_footer {
+	display:flex; 
+	justify-content:flex-end;
+}
+
+.post-card_button {
+	border-color:#70759A; 
+	background-color:#70759A; 
+	font-weight:bold;
 }
