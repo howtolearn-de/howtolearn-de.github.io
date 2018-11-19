@@ -19,5 +19,7 @@ RUN gem install bundler
 RUN bundle install
 VOLUME /src/dist
 #ENTRYPOINT "printenv"
-ENTRYPOINT ["/gems/bin/jekyll", "build"]
- 
+
+EXPOSE 4000
+ENTRYPOINT ["/gems/bin/jekyll"]
+CMD ["build"]

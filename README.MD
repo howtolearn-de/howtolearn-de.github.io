@@ -9,10 +9,14 @@ Jekyll-Pug-Material
 2. `cd` into the cloned/downloaded repository and run the command `bundle`.
 3. Run the command `jekyll serve`.
 
-## TO Run in Docker
+## To run server in Docker
+
+    docker run -p 4000:4000 howtolearn-de:latest server --host=0.0.0.0
+
+## To run build in Docker
 
     docker image build -t howtolearn-de .
-    docker run -v (pwd)/dist:/src/dist -it howtolearn-de:latest
+    docker run -v (pwd)/dist:/src/dist howtolearn-de:latest
 
 ## Package.json?
 
