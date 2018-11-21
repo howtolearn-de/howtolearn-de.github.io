@@ -16,7 +16,7 @@ Jekyll-Pug-Material
 ## To run build in Docker
 
     docker image build -t howtolearn-de .
-    docker run -v (pwd)/dist:/src/dist howtolearn-de:latest
+    docker run -v $(pwd)/dist:/src/dist howtolearn-de:latest
 
 ## Package.json?
 
