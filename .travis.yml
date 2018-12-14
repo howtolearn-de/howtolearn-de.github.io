@@ -10,10 +10,10 @@ install:
 - bundle install
 script:
 - bundle exec jekyll build
-- cp CNAME dist/
+- cp CNAME _site/
 deploy:
   provider: pages
-  local-dir: dist
+  local-dir: _site
   skip-cleanup: true
   target-branch: master
   github-token: "$GITHUB_TOKEN"

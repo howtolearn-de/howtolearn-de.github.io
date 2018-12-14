@@ -1,10 +1,8 @@
-//- Navigation
-nav.innoq-blue.lighten-1(role='navigation')
-  .nav-wrapper.container
-    a#logo-container.navbar-brand(href='/')
-      img.alfred-logo.d-inline-block(src='/static/img/alfred_affiliate_logo.png')
-    ul.right
-      li
-        a(href='contribute') How to learn
-      li
-        a(href='contribute') How to contribute
+nav.navbar.navbar-dark.bg-dark
+	.container
+		a#logo-container.navbar-brand(href='/')
+			img.alfred-logo(src='/static/img/alfred_affiliate_logo.png')
+		.navbar-nav
+			a.nav-item.nav-link(href='learn') How to learn
+			a.nav-item.nav-link(href='contribute') How to contribute   
+			

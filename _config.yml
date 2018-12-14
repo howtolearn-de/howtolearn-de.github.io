@@ -9,5 +9,4 @@ collections:
     title: Uploads
     output: true
 source: src
-destination: dist
 permalink: "/:categories/:title"
