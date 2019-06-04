@@ -1,7 +1,4 @@
-Jekyll-Pug-Material
----
-
-# A Material Design Pug Experience Using [Jekyll-Pug](https://jekyll-pug.dougie.io/)
+# Source of howtolearn.de
 
 ## To Run:
 
