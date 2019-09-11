@@ -8,5 +8,3 @@ collections:
 source: src
 destination: dist
 permalink: "/:categories/:title"
-jekyll-pug:
-  debug: true
