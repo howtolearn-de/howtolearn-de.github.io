@@ -18,14 +18,10 @@ permalink: /
         </div>
     </section>
     <section id="articles" class="container">
-        <div>
-            <ul>
-                {% for post in site.posts %}
-                    <li>
-                        <a href="{{ post.url }}">{{ post.title }}</a>
-                    </li>
-                {% endfor %}
-            </ul>
+        {% for post in site.posts %}
+        <div class="row my-5">
+            {% include _post_card.html post = post %}
         </div>
+        {% endfor %}
     </section>
 </main>

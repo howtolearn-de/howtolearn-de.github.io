@@ -2,6 +2,7 @@
 title: Domain-Driven Design
 topic: ddd
 author: johannes
+level: easy
 ---
 
 Feel like you need a PHD to understand what this DDD thing is all about? Don't worry, we have a nice and gentle intoroduction for you. <br><br>

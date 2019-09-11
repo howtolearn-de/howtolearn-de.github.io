@@ -1,0 +1,18 @@
+<div class="container-fluid">
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title"><a href="{{include.post.url}}">{{include.post.title}}</a></h5>
+            <p class="card-text">{{include.post.excerpt}}</p>
+        </div>
+        <div class="card-footer w-100">
+            <img src="/static/img/alfred_affiliate_logo_placeholder.png" alt="Autor image" class="card-img-top"
+                style="max-width: 25px">
+
+            <span class="ml-2">{{site.data.authors[include.post.author].name}}</span>
+
+            <span class="float-right">
+                Level: {{include.post.level}}
+            </span>
+        </div>
+    </div>
+</div>

@@ -5,3 +5,7 @@
 .bg-primary {
     background-color: #3f51b5 !important;
 }
+
+.no-margin {
+    margin: 0;
+}
