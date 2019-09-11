@@ -1,8 +1,7 @@
 ---
 title: Domain-Driven Design
-date: 2018-10-12 00:00:00 Z
-expert: Johannes Seitz
-layout: post
+topic: ddd
+author: johannes
 ---
 
 Feel like you need a PHD to understand what this DDD thing is all about? Don't worry, we have a nice and gentle intoroduction for you. <br><br>

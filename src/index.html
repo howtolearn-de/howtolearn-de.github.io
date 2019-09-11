@@ -18,6 +18,14 @@ permalink: /
         </div>
     </section>
     <section id="articles" class="container">
-        <h2>Hier könnte DEIN Artikel stehen! :)</h2>
+        <div>
+            <ul>
+                {% for post in site.posts %}
+                    <li>
+                        <a href="{{ post.url }}">{{ post.title }}</a>
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
     </section>
 </main>

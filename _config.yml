@@ -6,3 +6,12 @@ exclude:
   - "Gemfile.lock"
   - "vendor"
 encoding: "utf-8"
+
+permalink: /article/:year/:month/:day/:title/
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
